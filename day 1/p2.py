@@ -1,4 +1,4 @@
-file = open('day 1/p2.txt')
+file = open('day 1/puzzle.txt')
 digits = { 'one':'1', 'two':'2', 'three':'3', "four":'4', "five":'5', "six":'6', 'seven':'7', "eight":'8', 'nine':'9'}
 def solve():
     f = s = 0

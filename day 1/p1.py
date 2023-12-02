@@ -1,4 +1,4 @@
-file = open('day 1/p1.txt')
+file = open('day 1/puzzle.txt')
 
 def solve():
     f = s = 0

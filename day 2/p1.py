@@ -1,4 +1,4 @@
-file = open('day 2/p1.txt')
+file = open('day 2/puzzle.txt')
 limits = {'red':12, 'green':13, 'blue':14}
 
 def solve(line):
@@ -20,7 +20,7 @@ val = 0
 for i in range(1, 1 + len(allTestCases)):
     if solve(allTestCases[i-1]):
         val += i
-        print('value', val)
+        # print('value', val)
 
 print(val)
 

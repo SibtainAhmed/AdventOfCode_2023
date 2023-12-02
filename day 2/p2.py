@@ -1,4 +1,4 @@
-file = open('day 2/p2.txt')
+file = open('day 2/puzzle.txt')
 
 def solve(line):
     maxColorValue = {'red':0, 'green':0, 'blue':0}
@@ -19,7 +19,7 @@ allTestCases = file.readlines()
 val = 0
 for i in range(1, 1 + len(allTestCases)):
     val += solve(allTestCases[i-1])
-    print('value', val)
+    # print('value', val)
 
 print(val)
 
